@@ -5,3 +5,4 @@ project(OpenCVPlayground)
 find_package(OpenCV REQUIRED)
 
 add_subdirectory(accessing-pixels)
+add_subdirectory(CvtColor)
