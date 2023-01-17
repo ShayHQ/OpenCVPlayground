@@ -6,3 +6,4 @@ find_package(OpenCV REQUIRED)
 
 add_subdirectory(accessing-pixels)
 add_subdirectory(CvtColor)
+add_subdirectory(PresetWB)
