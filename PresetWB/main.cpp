@@ -9,7 +9,7 @@
 
 cv::Vec2d genWB(cv::Mat& whiteColor);
 
-int main(void){
+int test_presetwb_main(void){
     cv::Mat testingWBImage = cv::imread("./whiteCalibImage.png", cv::IMREAD_UNCHANGED); // MONOCHROME
     cv::cvtColor(testingWBImage, testingWBImage, cv::COLOR_BayerBG2BGR);
 

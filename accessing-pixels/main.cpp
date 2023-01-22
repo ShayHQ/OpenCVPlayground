@@ -24,7 +24,7 @@ void TestPixelAccessFunctions(cv::Mat& mat, int channel){
     }
 }
 
-int main(void){
+int test_accessingPixels_main(void){
     cv::Mat sampleImg = cv::imread(cv::samples::findFile("starry_night.jpg")); // color image
     
     for (int i = 0; i < 3; i ++) TestPixelAccessFunctions(sampleImg, i);

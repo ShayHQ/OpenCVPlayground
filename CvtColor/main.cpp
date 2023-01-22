@@ -11,7 +11,7 @@ cv::Mat cvtColorRGGB(cv::Mat& img);
 void wbImage(cv::Mat& img, double r = 0, double g = 0, double b = 0);
 
 
-int main(void){
+int test_cvtcolor_main(void){
     cv::Mat sampleImg = cv::imread("/home/shay/tmp/testing-white-img.png", cv::IMREAD_UNCHANGED); // MONOCHROME
     cv::Mat colorImg = cvtColorRGGB(sampleImg);
     wbImage(colorImg, 0.835, 0, 0.608);
